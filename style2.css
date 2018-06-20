@@ -15,13 +15,18 @@ h1{
 section {margin-bottom: 20px; padding: 10px;}
 
 /* Show each of the section headings of the menu (e.g. "Starters") in uppercase. */
-h2 {margin-top: 0; text-transform: uppercase}
+h2 {margin-top: 0; text-transform: uppercase;
+    font-family: "Oswald"}
 
 /* Make the name of each menu item appear in bold in a 16px size. */
-dt {display: inline; font-weight: bold; font-size: 16px}
+dt {display: inline; font-weight: bold; font-size: 16px;
+    font-family: "Oswald"}
 /* Make a comma appear after the name of each menu item (before the description) */
 dt::after{content: ","}
-dd {display: inline; margin: 0;}
+dd {display: inline; margin: 0;
+    font-family: "Oswald";
+    font-size: 14
+}
 dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 
 .price {float: right; padding: 0 0 35px 20px;}
